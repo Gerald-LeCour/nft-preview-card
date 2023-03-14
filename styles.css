@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+}
+
+h1 {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.3em;
+  padding-bottom: 15px;
+}
+
+p {
+  color: hsla(215, 52%, 70%, 0.58);
+  font-weight: 300;
+  padding-bottom: 15px;
+}
+
+.main-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  width: 100%;
+}
+
+.card-container {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 1em;
+  width: 350px;
+  height: auto;
+  box-shadow: 0px 10px 50px hsl(214, 54%, 5%);
+}
+
+.equilibrium-img {
+  width: inherit;
+  padding: 20px;
+  border-radius: 27px;
+}
+
+.info-container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.eth-clock-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eth-icon span {
+  color: hsl(178, 100%, 50%);
+}
+
+.clock-icon span {
+  color: hsl(215, 51%, 70%);
+}
+
+.icon {
+  position: relative;
+  top: 2px;
+  right: 2px;
+}
+
+.line-break {
+  width: 100%;
+  background-color: hsla(215, 52%, 70%, 0.237);
+  height: 0.5px;
+  border-radius: 1em;
+  margin-top: 20px;
+}
+
+.creator-container {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.avatar {
+  width: 45px;
+  border: 2px solid rgba(255, 255, 255, 0.669);
+  border-radius: 50%;
+}
+
+.creator {
+  color: hsla(0, 0%, 100%, 0.74);
+  padding-left: 20px;
+}
+
+.creation-of {
+  color: hsla(215, 52%, 70%, 0.58);
+}
+
+.attribution {
+  position: relative;
+  bottom: 10px;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution a {
+  color: hsl(178, 100%, 50%);
+}
